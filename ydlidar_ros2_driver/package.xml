@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>ydlidar_ros2_driver</name>
+  <version>0.0.1</version>
+  <description>ROS 2 Humble driver for YDLidar sensors.</description>
+  <maintainer email="maintainer@example.com">Maintainer</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_python</buildtool_depend>
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>python3-serial</depend>
+  <exec_depend>python3-serial</exec_depend>
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
